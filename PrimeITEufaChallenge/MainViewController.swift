@@ -18,7 +18,6 @@ class MainViewController: UIViewController {
         super.viewDidLoad()
 
         navigationController?.title = "Main"
-        
         uclVersionButton?.addTarget(self, action: #selector(navigateToUCLVersion(_:)), for: .touchUpInside)
         uelVersionButton?.addTarget(self, action: #selector(navigateToUELVersion(_:)), for: .touchUpInside)
     }

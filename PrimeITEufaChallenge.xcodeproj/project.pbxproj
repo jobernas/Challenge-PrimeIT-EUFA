@@ -7,19 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C5AD5BCD2729BCAF0055C12A /* UiComponents in Frameworks */ = {isa = PBXBuildFile; productRef = C5AD5BCC2729BCAF0055C12A /* UiComponents */; };
+		C5AD5BCF2729BF8E0055C12A /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = C5AD5BCE2729BF8E0055C12A /* .gitignore */; };
 		C5C454B927296F85002CDD6C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C5C454B827296F85002CDD6C /* README.md */; };
 		C5C454BB27296F8C002CDD6C /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = C5C454BA27296F8C002CDD6C /* Podfile */; };
+		C5C454BE27298AA8002CDD6C /* OverviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C454BD27298AA8002CDD6C /* OverviewViewController.swift */; };
+		C5C454C027298B04002CDD6C /* TeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C454BF27298B04002CDD6C /* TeamViewController.swift */; };
+		C5C454C327298B79002CDD6C /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C454C227298B79002CDD6C /* Theme.swift */; };
 		C5D4F3CA27296C07003DCEAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D4F3C927296C07003DCEAD /* AppDelegate.swift */; };
 		C5D4F3CC27296C07003DCEAD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D4F3CB27296C07003DCEAD /* SceneDelegate.swift */; };
 		C5D4F3CE27296C07003DCEAD /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D4F3CD27296C07003DCEAD /* MainViewController.swift */; };
 		C5D4F3D127296C07003DCEAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5D4F3CF27296C07003DCEAD /* Main.storyboard */; };
 		C5D4F3D327296C09003DCEAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5D4F3D227296C09003DCEAD /* Assets.xcassets */; };
 		C5D4F3D627296C09003DCEAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5D4F3D427296C09003DCEAD /* LaunchScreen.storyboard */; };
+		F1F06BD82E6F06BBC871B1C2 /* Pods_PrimeITEufaChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 004E18EA949E60CF0243FA0D /* Pods_PrimeITEufaChallenge.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		004E18EA949E60CF0243FA0D /* Pods_PrimeITEufaChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrimeITEufaChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EAA9855AAD1877BEC914A12 /* Pods-PrimeITEufaChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrimeITEufaChallenge.release.xcconfig"; path = "Target Support Files/Pods-PrimeITEufaChallenge/Pods-PrimeITEufaChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		47738DE0D2D460BEBC188444 /* Pods-PrimeITEufaChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrimeITEufaChallenge.debug.xcconfig"; path = "Target Support Files/Pods-PrimeITEufaChallenge/Pods-PrimeITEufaChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		C5AD5BCE2729BF8E0055C12A /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		C5C454B827296F85002CDD6C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		C5C454BA27296F8C002CDD6C /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		C5C454BA27296F8C002CDD6C /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C5C454BD27298AA8002CDD6C /* OverviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewViewController.swift; sourceTree = "<group>"; };
+		C5C454BF27298B04002CDD6C /* TeamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamViewController.swift; sourceTree = "<group>"; };
+		C5C454C227298B79002CDD6C /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		C5D4F3C627296C07003DCEAD /* PrimeITEufaChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrimeITEufaChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5D4F3C927296C07003DCEAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C5D4F3CB27296C07003DCEAD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -35,19 +48,50 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5AD5BCD2729BCAF0055C12A /* UiComponents in Frameworks */,
+				F1F06BD82E6F06BBC871B1C2 /* Pods_PrimeITEufaChallenge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AAF5F835C12AB68E66E8BF03 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				47738DE0D2D460BEBC188444 /* Pods-PrimeITEufaChallenge.debug.xcconfig */,
+				3EAA9855AAD1877BEC914A12 /* Pods-PrimeITEufaChallenge.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C5C454BC27298A77002CDD6C /* Team */ = {
+			isa = PBXGroup;
+			children = (
+				C5C454BD27298AA8002CDD6C /* OverviewViewController.swift */,
+				C5C454BF27298B04002CDD6C /* TeamViewController.swift */,
+			);
+			path = Team;
+			sourceTree = "<group>";
+		};
+		C5C454C127298B5F002CDD6C /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				C5C454C227298B79002CDD6C /* Theme.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
 		C5D4F3BD27296C07003DCEAD = {
 			isa = PBXGroup;
 			children = (
+				C5AD5BCE2729BF8E0055C12A /* .gitignore */,
 				C5C454B827296F85002CDD6C /* README.md */,
 				C5C454BA27296F8C002CDD6C /* Podfile */,
 				C5D4F3C827296C07003DCEAD /* PrimeITEufaChallenge */,
 				C5D4F3C727296C07003DCEAD /* Products */,
+				AAF5F835C12AB68E66E8BF03 /* Pods */,
+				C758EFC29FEE6A5B62EE9E7C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +106,8 @@
 		C5D4F3C827296C07003DCEAD /* PrimeITEufaChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				C5C454C127298B5F002CDD6C /* Shared */,
+				C5C454BC27298A77002CDD6C /* Team */,
 				C5D4F3C927296C07003DCEAD /* AppDelegate.swift */,
 				C5D4F3CB27296C07003DCEAD /* SceneDelegate.swift */,
 				C5D4F3CD27296C07003DCEAD /* MainViewController.swift */,
@@ -73,6 +119,14 @@
 			path = PrimeITEufaChallenge;
 			sourceTree = "<group>";
 		};
+		C758EFC29FEE6A5B62EE9E7C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				004E18EA949E60CF0243FA0D /* Pods_PrimeITEufaChallenge.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -80,6 +134,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C5D4F3DA27296C09003DCEAD /* Build configuration list for PBXNativeTarget "PrimeITEufaChallenge" */;
 			buildPhases = (
+				FF66B94A3EED6F6033C2D2C3 /* [CP] Check Pods Manifest.lock */,
 				C5D4F3C227296C07003DCEAD /* Sources */,
 				C5D4F3C327296C07003DCEAD /* Frameworks */,
 				C5D4F3C427296C07003DCEAD /* Resources */,
@@ -89,6 +144,9 @@
 			dependencies = (
 			);
 			name = PrimeITEufaChallenge;
+			packageProductDependencies = (
+				C5AD5BCC2729BCAF0055C12A /* UiComponents */,
+			);
 			productName = PrimeITEufaChallenge;
 			productReference = C5D4F3C627296C07003DCEAD /* PrimeITEufaChallenge.app */;
 			productType = "com.apple.product-type.application";
@@ -135,11 +193,37 @@
 				C5D4F3D627296C09003DCEAD /* LaunchScreen.storyboard in Resources */,
 				C5D4F3D327296C09003DCEAD /* Assets.xcassets in Resources */,
 				C5C454B927296F85002CDD6C /* README.md in Resources */,
+				C5AD5BCF2729BF8E0055C12A /* .gitignore in Resources */,
 				C5D4F3D127296C07003DCEAD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FF66B94A3EED6F6033C2D2C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PrimeITEufaChallenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C5D4F3C227296C07003DCEAD /* Sources */ = {
@@ -147,8 +231,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5D4F3CE27296C07003DCEAD /* MainViewController.swift in Sources */,
+				C5C454BE27298AA8002CDD6C /* OverviewViewController.swift in Sources */,
 				C5D4F3CA27296C07003DCEAD /* AppDelegate.swift in Sources */,
+				C5C454C327298B79002CDD6C /* Theme.swift in Sources */,
 				C5D4F3CC27296C07003DCEAD /* SceneDelegate.swift in Sources */,
+				C5C454C027298B04002CDD6C /* TeamViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +379,7 @@
 		};
 		C5D4F3DB27296C09003DCEAD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47738DE0D2D460BEBC188444 /* Pods-PrimeITEufaChallenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -319,6 +407,7 @@
 		};
 		C5D4F3DC27296C09003DCEAD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EAA9855AAD1877BEC914A12 /* Pods-PrimeITEufaChallenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -366,6 +455,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C5AD5BCC2729BCAF0055C12A /* UiComponents */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = UiComponents;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C5D4F3BE27296C07003DCEAD /* Project object */;
 }
