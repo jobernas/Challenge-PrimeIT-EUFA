@@ -9,11 +9,19 @@
 /* Begin PBXBuildFile section */
 		C5AD5BCD2729BCAF0055C12A /* UiComponents in Frameworks */ = {isa = PBXBuildFile; productRef = C5AD5BCC2729BCAF0055C12A /* UiComponents */; };
 		C5AD5BCF2729BF8E0055C12A /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = C5AD5BCE2729BF8E0055C12A /* .gitignore */; };
+		C5AD5BD2272ACE650055C12A /* Champions-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C5AD5BD1272ACE650055C12A /* Champions-Bold.ttf */; };
+		C5AD5BD4272AF5880055C12A /* UCLTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AD5BD3272AF5880055C12A /* UCLTheme.swift */; };
+		C5AD5BD6272AF67A0055C12A /* UELTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AD5BD5272AF67A0055C12A /* UELTheme.swift */; };
+		C5AD5BD8272AF79F0055C12A /* TabsThemeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AD5BD7272AF79F0055C12A /* TabsThemeProtocol.swift */; };
+		C5AD5BDA272AFCCC0055C12A /* MatchesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AD5BD9272AFCCC0055C12A /* MatchesViewController.swift */; };
+		C5AD5BDC272AFD080055C12A /* GroupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AD5BDB272AFD080055C12A /* GroupsViewController.swift */; };
+		C5AD5BDE272AFD800055C12A /* StatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AD5BDD272AFD800055C12A /* StatsViewController.swift */; };
+		C5AD5BE0272AFDEC0055C12A /* SquadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AD5BDF272AFDEC0055C12A /* SquadViewController.swift */; };
 		C5C454B927296F85002CDD6C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C5C454B827296F85002CDD6C /* README.md */; };
 		C5C454BB27296F8C002CDD6C /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = C5C454BA27296F8C002CDD6C /* Podfile */; };
 		C5C454BE27298AA8002CDD6C /* OverviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C454BD27298AA8002CDD6C /* OverviewViewController.swift */; };
 		C5C454C027298B04002CDD6C /* TeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C454BF27298B04002CDD6C /* TeamViewController.swift */; };
-		C5C454C327298B79002CDD6C /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C454C227298B79002CDD6C /* Theme.swift */; };
+		C5C454C327298B79002CDD6C /* AppThemeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C454C227298B79002CDD6C /* AppThemeProtocol.swift */; };
 		C5D4F3CA27296C07003DCEAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D4F3C927296C07003DCEAD /* AppDelegate.swift */; };
 		C5D4F3CC27296C07003DCEAD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D4F3CB27296C07003DCEAD /* SceneDelegate.swift */; };
 		C5D4F3CE27296C07003DCEAD /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D4F3CD27296C07003DCEAD /* MainViewController.swift */; };
@@ -28,11 +36,19 @@
 		3EAA9855AAD1877BEC914A12 /* Pods-PrimeITEufaChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrimeITEufaChallenge.release.xcconfig"; path = "Target Support Files/Pods-PrimeITEufaChallenge/Pods-PrimeITEufaChallenge.release.xcconfig"; sourceTree = "<group>"; };
 		47738DE0D2D460BEBC188444 /* Pods-PrimeITEufaChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrimeITEufaChallenge.debug.xcconfig"; path = "Target Support Files/Pods-PrimeITEufaChallenge/Pods-PrimeITEufaChallenge.debug.xcconfig"; sourceTree = "<group>"; };
 		C5AD5BCE2729BF8E0055C12A /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		C5AD5BD1272ACE650055C12A /* Champions-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Champions-Bold.ttf"; sourceTree = "<group>"; };
+		C5AD5BD3272AF5880055C12A /* UCLTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UCLTheme.swift; sourceTree = "<group>"; };
+		C5AD5BD5272AF67A0055C12A /* UELTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UELTheme.swift; sourceTree = "<group>"; };
+		C5AD5BD7272AF79F0055C12A /* TabsThemeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabsThemeProtocol.swift; sourceTree = "<group>"; };
+		C5AD5BD9272AFCCC0055C12A /* MatchesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesViewController.swift; sourceTree = "<group>"; };
+		C5AD5BDB272AFD080055C12A /* GroupsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsViewController.swift; sourceTree = "<group>"; };
+		C5AD5BDD272AFD800055C12A /* StatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsViewController.swift; sourceTree = "<group>"; };
+		C5AD5BDF272AFDEC0055C12A /* SquadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquadViewController.swift; sourceTree = "<group>"; };
 		C5C454B827296F85002CDD6C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C5C454BA27296F8C002CDD6C /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C5C454BD27298AA8002CDD6C /* OverviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewViewController.swift; sourceTree = "<group>"; };
 		C5C454BF27298B04002CDD6C /* TeamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamViewController.swift; sourceTree = "<group>"; };
-		C5C454C227298B79002CDD6C /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		C5C454C227298B79002CDD6C /* AppThemeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppThemeProtocol.swift; sourceTree = "<group>"; };
 		C5D4F3C627296C07003DCEAD /* PrimeITEufaChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrimeITEufaChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5D4F3C927296C07003DCEAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C5D4F3CB27296C07003DCEAD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,11 +81,31 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		C5C454BC27298A77002CDD6C /* Team */ = {
+		C5AD5BD0272ACDB80055C12A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C5AD5BD1272ACE650055C12A /* Champions-Bold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		C5AD5BE1272AFE1C0055C12A /* Tabs */ = {
 			isa = PBXGroup;
 			children = (
 				C5C454BD27298AA8002CDD6C /* OverviewViewController.swift */,
+				C5AD5BD9272AFCCC0055C12A /* MatchesViewController.swift */,
+				C5AD5BDB272AFD080055C12A /* GroupsViewController.swift */,
+				C5AD5BDD272AFD800055C12A /* StatsViewController.swift */,
+				C5AD5BDF272AFDEC0055C12A /* SquadViewController.swift */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		C5C454BC27298A77002CDD6C /* Team */ = {
+			isa = PBXGroup;
+			children = (
 				C5C454BF27298B04002CDD6C /* TeamViewController.swift */,
+				C5AD5BE1272AFE1C0055C12A /* Tabs */,
 			);
 			path = Team;
 			sourceTree = "<group>";
@@ -77,7 +113,10 @@
 		C5C454C127298B5F002CDD6C /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				C5C454C227298B79002CDD6C /* Theme.swift */,
+				C5C454C227298B79002CDD6C /* AppThemeProtocol.swift */,
+				C5AD5BD7272AF79F0055C12A /* TabsThemeProtocol.swift */,
+				C5AD5BD3272AF5880055C12A /* UCLTheme.swift */,
+				C5AD5BD5272AF67A0055C12A /* UELTheme.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -106,6 +145,7 @@
 		C5D4F3C827296C07003DCEAD /* PrimeITEufaChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				C5AD5BD0272ACDB80055C12A /* Fonts */,
 				C5C454C127298B5F002CDD6C /* Shared */,
 				C5C454BC27298A77002CDD6C /* Team */,
 				C5D4F3C927296C07003DCEAD /* AppDelegate.swift */,
@@ -192,6 +232,7 @@
 				C5C454BB27296F8C002CDD6C /* Podfile in Resources */,
 				C5D4F3D627296C09003DCEAD /* LaunchScreen.storyboard in Resources */,
 				C5D4F3D327296C09003DCEAD /* Assets.xcassets in Resources */,
+				C5AD5BD2272ACE650055C12A /* Champions-Bold.ttf in Resources */,
 				C5C454B927296F85002CDD6C /* README.md in Resources */,
 				C5AD5BCF2729BF8E0055C12A /* .gitignore in Resources */,
 				C5D4F3D127296C07003DCEAD /* Main.storyboard in Resources */,
@@ -232,9 +273,16 @@
 			files = (
 				C5D4F3CE27296C07003DCEAD /* MainViewController.swift in Sources */,
 				C5C454BE27298AA8002CDD6C /* OverviewViewController.swift in Sources */,
+				C5AD5BDA272AFCCC0055C12A /* MatchesViewController.swift in Sources */,
+				C5AD5BD6272AF67A0055C12A /* UELTheme.swift in Sources */,
 				C5D4F3CA27296C07003DCEAD /* AppDelegate.swift in Sources */,
-				C5C454C327298B79002CDD6C /* Theme.swift in Sources */,
+				C5AD5BDC272AFD080055C12A /* GroupsViewController.swift in Sources */,
+				C5AD5BD4272AF5880055C12A /* UCLTheme.swift in Sources */,
+				C5C454C327298B79002CDD6C /* AppThemeProtocol.swift in Sources */,
+				C5AD5BE0272AFDEC0055C12A /* SquadViewController.swift in Sources */,
 				C5D4F3CC27296C07003DCEAD /* SceneDelegate.swift in Sources */,
+				C5AD5BD8272AF79F0055C12A /* TabsThemeProtocol.swift in Sources */,
+				C5AD5BDE272AFD800055C12A /* StatsViewController.swift in Sources */,
 				C5C454C027298B04002CDD6C /* TeamViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

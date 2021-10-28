@@ -25,11 +25,14 @@ class MainViewController: UIViewController {
     //MARK: - Actions
     @objc func navigateToUCLVersion(_ sender: UIButton) {
         debugPrint("called UCL Version")
+        let uclTheme = Theme(appBackgroundColor: <#T##UIColor#>, appTabsBackgroundColor: <#T##UIColor#>, appBackgroundHeaderImage: <#T##UIImage#>)
+        navigationController?.pushViewController(TeamViewController.newInstance(theme: uclTheme), animated: true)
     }
     
     @objc func navigateToUELVersion(_ sender: UIButton) {
         debugPrint("called UEL Version")
-
+        let uelTheme = Theme()
+        navigationController?.pushViewController(TeamViewController.newInstance(theme: uelTheme), animated: true)
     }
 }
 
