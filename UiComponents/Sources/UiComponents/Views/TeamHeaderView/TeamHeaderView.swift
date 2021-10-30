@@ -22,8 +22,9 @@ public class TeamHeaderView: UIView {
         setupViews(teamHeaderStyleProtocol: teamHeaderStyleProtocol)
     }
 
-    public convenience init() {
+    public convenience init(teamHeaderStyleProtocol: TeamHeaderViewStyleProtocol = DefaultTeamHeaderViewStyle()) {
         self.init(frame: CGRect.zero)
+        setupViews(teamHeaderStyleProtocol: teamHeaderStyleProtocol)
     }
 
     public required init?(coder: NSCoder) {
@@ -32,7 +33,7 @@ public class TeamHeaderView: UIView {
     }
     
     // MARK: - Public methods
-    public func setImage(_ image: UIImage) {
+    public func setImage(_ image: UIImage?) {
         teamLogoImageView.image = image
     }
     
@@ -45,13 +46,25 @@ public class TeamHeaderView: UIView {
         teamRoundLabel.text = String(format: "Round of %d", round)
     }
     
+    public func setBackgroundImage(_ image: UIImage?) {
+        guard let imageNotNil = image else {
+            return
+        }
+        backgroundColor = UIColor(patternImage: imageNotNil)
+    }
+    
     // MARK: - Private methods
     private func setupViews(teamHeaderStyleProtocol: TeamHeaderViewStyleProtocol) {
+        // we're using auto-layout
+        teamNameLabel.translatesAutoresizingMaskIntoConstraints = false
+        teamInfoNoteLabel.translatesAutoresizingMaskIntoConstraints = false
+        teamRoundLabel.translatesAutoresizingMaskIntoConstraints = false
+        teamLogoImageView.translatesAutoresizingMaskIntoConstraints = false
+        
         addSubview(teamNameLabel)
         addSubview(teamInfoNoteLabel)
         addSubview(teamRoundLabel)
         addSubview(teamLogoImageView)
-        
         autoresizesSubviews = true
         
         // Apply Styles
@@ -63,24 +76,23 @@ public class TeamHeaderView: UIView {
         teamInfoNoteLabel.text = "Playing"
         
         // Add constraints
-        let teamInfoNoteLabelTrailing = NSLayoutConstraint(item: teamInfoNoteLabel, attribute: .leading, relatedBy: .equal, toItem: teamLogoImageView, attribute: .leading, multiplier: 1, constant: 16)
-        teamInfoNoteLabelTrailing.priority = 249.toLayoutPriority()
-
-        NSLayoutConstraint.activate([
-            NSLayoutConstraint(item: teamNameLabel, attribute: .leading, relatedBy: .equal, toItem: self, attribute: .leadingMargin, multiplier: 1, constant: 16),
-            NSLayoutConstraint(item: teamNameLabel, attribute: .trailing, relatedBy: .equal, toItem: self, attribute: .trailingMargin, multiplier: 1, constant: -16),
-            NSLayoutConstraint(item: teamNameLabel, attribute: .top, relatedBy: .equal, toItem: self, attribute: .top, multiplier: 1, constant: 100),
-            NSLayoutConstraint(item: teamNameLabel, attribute: .bottom, relatedBy: .equal, toItem: teamInfoNoteLabel, attribute: .top, multiplier: 1, constant: 0),
-            NSLayoutConstraint(item: teamInfoNoteLabel, attribute: .top, relatedBy: .equal, toItem: teamNameLabel, attribute: .bottom, multiplier: 1, constant: 72),
-            NSLayoutConstraint(item: teamInfoNoteLabel, attribute: .leading, relatedBy: .equal, toItem: teamNameLabel, attribute: .leading, multiplier: 1, constant: 16),
-            teamInfoNoteLabelTrailing,
-            NSLayoutConstraint(item: teamInfoNoteLabel, attribute: .bottom, relatedBy: .equal, toItem: teamRoundLabel, attribute: .bottom, multiplier: 1, constant: 0),
-            NSLayoutConstraint(item: teamRoundLabel, attribute: .leading, relatedBy: .equal, toItem: teamInfoNoteLabel, attribute: .leading, multiplier: 1, constant: 0),
-            NSLayoutConstraint(item: teamRoundLabel, attribute: .top, relatedBy: .equal, toItem: teamInfoNoteLabel, attribute: .bottom, multiplier: 1, constant: 0),
-            NSLayoutConstraint(item: teamRoundLabel, attribute: .trailing, relatedBy: .equal, toItem: teamInfoNoteLabel, attribute: .trailing, multiplier: 1, constant: 0),
-            NSLayoutConstraint(item: teamRoundLabel, attribute: .bottom, relatedBy: .equal, toItem: self, attribute: .bottom, multiplier: 1, constant: 24),
-//            NSLayoutConstraint(item: payButton, attribute: .bottom, relatedBy: .equal, toItem: loaderActivityIndicator, attribute: .top, multiplier: 1, constant: -16),
-        ])
+//        let teamInfoNoteLabelTrailing =
+//        teamInfoNoteLabelTrailing.isActive = true
+//        teamInfoNoteLabelTrailing.priority = 249.toLayoutPriority()
+        
+        teamNameLabel.topAnchor.constraint(equalTo: self.topAnchor, constant: 100).isActive = true
+        teamNameLabel.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 16).isActive = true
+        teamNameLabel.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -16).isActive = true
+        teamInfoNoteLabel.topAnchor.constraint(equalTo: teamNameLabel.bottomAnchor, constant: 72).isActive = true
+        teamInfoNoteLabel.leadingAnchor.constraint(equalTo: teamNameLabel.leadingAnchor).isActive = true
+        teamInfoNoteLabel.trailingAnchor.constraint(equalTo: teamLogoImageView.leadingAnchor, constant: -16).isActive = true
+        teamLogoImageView.trailingAnchor.constraint(equalTo: teamNameLabel.trailingAnchor).isActive = true
+        teamLogoImageView.bottomAnchor.constraint(equalTo: self.bottomAnchor, constant: -16).isActive = true
+        teamRoundLabel.topAnchor.constraint(equalTo: teamInfoNoteLabel.bottomAnchor).isActive = true
+        teamRoundLabel.leadingAnchor.constraint(equalTo: teamInfoNoteLabel.leadingAnchor).isActive = true
+        teamRoundLabel.trailingAnchor.constraint(equalTo: teamInfoNoteLabel.trailingAnchor).isActive = true
+        teamRoundLabel.bottomAnchor.constraint(equalTo: self.bottomAnchor, constant: -24).isActive = true
+        updateConstraintsIfNeeded()
     }
     
     

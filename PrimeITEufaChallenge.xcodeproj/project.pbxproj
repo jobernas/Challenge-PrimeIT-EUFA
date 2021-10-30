@@ -17,6 +17,7 @@
 		C5AD5BDC272AFD080055C12A /* GroupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AD5BDB272AFD080055C12A /* GroupsViewController.swift */; };
 		C5AD5BDE272AFD800055C12A /* StatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AD5BDD272AFD800055C12A /* StatsViewController.swift */; };
 		C5AD5BE0272AFDEC0055C12A /* SquadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AD5BDF272AFDEC0055C12A /* SquadViewController.swift */; };
+		C5AD5BE3272B02230055C12A /* tmp.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5AD5BE2272B02230055C12A /* tmp.xib */; };
 		C5C454B927296F85002CDD6C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C5C454B827296F85002CDD6C /* README.md */; };
 		C5C454BB27296F8C002CDD6C /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = C5C454BA27296F8C002CDD6C /* Podfile */; };
 		C5C454BE27298AA8002CDD6C /* OverviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C454BD27298AA8002CDD6C /* OverviewViewController.swift */; };
@@ -44,6 +45,7 @@
 		C5AD5BDB272AFD080055C12A /* GroupsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsViewController.swift; sourceTree = "<group>"; };
 		C5AD5BDD272AFD800055C12A /* StatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsViewController.swift; sourceTree = "<group>"; };
 		C5AD5BDF272AFDEC0055C12A /* SquadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquadViewController.swift; sourceTree = "<group>"; };
+		C5AD5BE2272B02230055C12A /* tmp.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = tmp.xib; sourceTree = "<group>"; };
 		C5C454B827296F85002CDD6C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C5C454BA27296F8C002CDD6C /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C5C454BD27298AA8002CDD6C /* OverviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 			children = (
 				C5C454BF27298B04002CDD6C /* TeamViewController.swift */,
 				C5AD5BE1272AFE1C0055C12A /* Tabs */,
+				C5AD5BE2272B02230055C12A /* tmp.xib */,
 			);
 			path = Team;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5C454BB27296F8C002CDD6C /* Podfile in Resources */,
+				C5AD5BE3272B02230055C12A /* tmp.xib in Resources */,
 				C5D4F3D627296C09003DCEAD /* LaunchScreen.storyboard in Resources */,
 				C5D4F3D327296C09003DCEAD /* Assets.xcassets in Resources */,
 				C5AD5BD2272ACE650055C12A /* Champions-Bold.ttf in Resources */,
